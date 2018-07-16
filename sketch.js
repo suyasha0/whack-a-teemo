@@ -16,16 +16,16 @@ let musicPlaying = false;
 function preload() {
 
 	//722 x 500
-	backgroundGraphic = loadImage("./images/background.png");
-	teemo = loadImage("./images/teemo.png");
-	deadteemo = loadImage("./images/teemo2.png");
-	mallet = loadImage("./images/mallet.png");
-	downmallet = loadImage("./images/mallet2.png");
-	emptyhole = loadImage("./images/empty.png");
-	ready = loadImage("./images/ready.png");
+	backgroundGraphic = loadImage("images/background.png");
+	teemo = loadImage("images/teemo.png");
+	deadteemo = loadImage("images/teemo2.png");
+	mallet = loadImage("images/mallet.png");
+	downmallet = loadImage("images/mallet2.png");
+	emptyhole = loadImage("images/empty.png");
+	ready = loadImage("images/ready.png");
 
-	whack = loadSound("./sounds/whack.mp3");
-	jingle = loadSound("./sounds/jingle.mp3");
+	whack = loadSound("sounds/whack.mp3");
+	jingle = loadSound("sounds/jingle.mp3");
 	cursor = mallet;
 }
 
